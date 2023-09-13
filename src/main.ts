@@ -7,9 +7,7 @@ import {
   warnLogger,
   infoLogger,
   rgbaLogger,
-} from "./utils/logger";
-
-// https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8
+} from "./utils/log-pal";
 
 logger(`#fff`)('custom message');
 

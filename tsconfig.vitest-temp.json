@@ -3,8 +3,11 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
-    "moduleResolution": "node",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "moduleResolution": "Node",
     "strict": true,
     "sourceMap": true,
     "resolveJsonModule": true,
@@ -20,9 +23,15 @@
     "baseUrl": "./src",
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@utils/*": ["./utils/*"]
-    }
+      "@utils/*": [
+        "./utils/*"
+      ]
+    },
+    "emitDeclarationOnly": false,
+    "incremental": true,
+    "tsBuildInfoFile": "/Users/alan/Projects/ts-logger-utility/node_modules/vitest/dist/tsconfig.tmp.tsbuildinfo"
   },
-  "include": ["./src"],
-  "allowImportingTsExtensions": true,
+  "include": [
+    "./src"
+  ]
 }
