@@ -27,6 +27,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest --run",
+    "test:watch": "vitest",
     "coverage": "vitest run --coverage",
     "typecheck": "vitest typecheck",
     "prepare": "husky install"
